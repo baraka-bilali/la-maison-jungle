@@ -1,0 +1,55 @@
+/* Styles pour le formulaire */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* Espace entre les éléments */
+    padding: 24px;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 32px auto; /* Centre le formulaire */
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Champ de texte */
+textarea[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+/* Effet au focus sur le champ */
+textarea[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Bouton */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/* Box shadow lors du clic */
+button:active {
+    box-shadow: 0px 4px 12px rgba(76, 175, 80, 0.7);
+    background-color: #45a049;
+}
+
+/* Effet hover pour le bouton */
+button:hover {
+    background-color: #45a049;
+}
