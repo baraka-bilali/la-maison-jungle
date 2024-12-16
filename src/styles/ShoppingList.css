@@ -6,4 +6,28 @@
 	max-width: 800px;
 	margin: 0 auto;
 	justify-content: center;
+	
 }
+
+.lmj-categorie-list{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	font-size: 19px;
+	
+	
+	
+
+}
+
+.lmj-categorie-list li{
+	margin: 20px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.lmj-categorie-list li:hover{
+	color: rgb(0, 255, 136);
+	transition: color 0.2s;
+
+}
+

@@ -11,7 +11,7 @@ function ShoppingList() {
 
 	return (
 		<div>
-			<ul>
+			<ul className='lmj-categorie-list'>
 				{categories.map((cat) => (
 					<li key={cat}>{cat}</li>
 				))}

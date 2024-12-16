@@ -1,9 +1,7 @@
 import Sun from '../assets/sun.svg'
 import Water from '../assets/water.svg'
 
-function Layout(children) {
-	return <div> {children}</div>
-}
+
 function CareScale({ scaleValue, careType }) {
 	const quantityLevel = {
 		1 : 'peu',
